@@ -20,7 +20,7 @@ jobs:
       - name: installer
         shell: cmd
         run: |
-          curl https://qemu.weilnetz.de/w64/2021/qemu-w64-setup-${{ github.ref_name }}.exe -L -O
+          curl https://qemu.weilnetz.de/w64/qemu-w64-setup-${{ github.ref_name }}.exe -L -O
           
       - name: innoextract 
         shell: cmd
